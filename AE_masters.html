@@ -155,7 +155,79 @@
 											As a part of Auburn's Space Technology & Application Research (STAR) Lab led by Dr. Masatoshi Hirabayashi, I focused on simulating impacts on Mercury (and some asteroids) to determine where escaped ejecta ends up.
 										</p>
 									</header>
-									<a href="images/LPSC_Poster_Final_CORRECT.png" class="image featured"><img src="images/LPSC_Poster_Final_CORRECT.png" alt="Poster presented at LPSC 2022" /></a>
+<div class="image row">
+  <div class="image column">
+    <img src="images/images/LPSC_Poster_Final_CORRECT.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <!--
+  <div class="image column">
+    <img src="images/poster.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="image column">
+    <img src="images/SESAPS.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="image column">
+    <img src="images/lucy.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+-->
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/LPSC_Poster_Final_CORRECT.png" style="width:100%">
+    </div>
+<!--
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/poster.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/SESAPS.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/lucy.jpg" style="width:100%">
+    </div>
+-->
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="image column">
+      <img class="demo" src="images/LPSC_Poster_Final_CORRECT.png" onclick="currentSlide(1)" alt="Poster presented at the 2022 Lunar and Planetary Science Conference (LPSC)">
+    </div>
+<!--
+    <div class="image column">
+      <img class="demo" src="images/poster.jpg" onclick="currentSlide(2)" alt="Poster that I made based on my research of the impact of dielectronic recombination rates on photoionized plasmas. This poster was presented at the 2019 SPARC conference in Germany by Dr. Mike Fogle and by myself at the 2019 SESAPS meeting.">
+    </div>
+
+    <div class="image column">
+      <img class="demo" src="images/SESAPS.jpg" onclick="currentSlide(3)" alt="Me presenting my research at the 2019 SESAPS meeting.">
+    </div>
+
+    <div class="image column">
+      <img class="demo" src="images/lucy.jpg" onclick="currentSlide(4)" alt="My cat Lucy. Isn't she cute?">
+    </div>
+-->
+  </div>
+</div>
+<!--
+									<a href="images/LPSC_Poster_Final_CORRECT.png" class="image featured"><img src="images/LPSC_Poster_Final_CORRECT.png" alt="Poster presented at LPSC 2022" /></a>-->
 									<p>
 										Note: All of the information on this page can also be found in my thesis: <a href="files/Jackson_Mercury_Thesis.pdf" target="_blank">Mercury Impact Ejecta's Contribution to its Own Meteoroid Population</a>. I often tell people that, while my degree is officially in AE, my research was better categorized as Planetary Science.
 									</p>
