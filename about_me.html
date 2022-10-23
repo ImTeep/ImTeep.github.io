@@ -144,6 +144,64 @@
 										<p>
 											<strong>Personal:</strong> Artist, coffee, Lights, vinyls, baseball, some other stuff.
 										</p>
+
+										<div class="image row">
+  <div class="image column">
+    <img src="images/AAS1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="image column">
+    <img src="images/poster.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="image column">
+    <img src="images/SESAPS.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/AAS1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/poster.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/SESAPS.jpg" style="width:100%">
+    </div>
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="image column">
+      <img class="demo" src="images/AAS1.jpeg" onclick="currentSlide(1)" alt="Ahmad Nemer (left), Samantha Rizzutio (right), and myself (center) presenting a poster at the 233rd American Astronomical Society Meeting. Ahmad was first author and published a paper based on this poster in late 2019. Ahmad played a major role in teaching me AMO as well as how to conduct astronomical research. I look up to him, not only as a scientist, but as a friend as well.">
+    </div>
+
+    <div class="image column">
+      <img class="demo" src="images/poster.jpg" onclick="currentSlide(2)" alt="Poster that I made based on my research of the impact of dielectronic recombination rates on photoionized plasmas. This poster was presented at the 2019 SPARC conference in Germany by Dr. Mike Fogle and by myself at the 2019 SESAPS meeting.">
+    </div>
+
+    <div class="image column">
+      <img class="demo" src="images/SESAPS.jpg" onclick="currentSlide(3)" alt="Me presenting my research at the 2019 SESAPS meeting.">
+    </div>
+
+  </div>
+</div>
 									</header>
 									<!--<a href="#" class="image featured"><img src="images/face2.jpg" alt="" /></a>
 									<p>
